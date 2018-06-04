@@ -1,6 +1,6 @@
 # mobilefacenet-V2
 improve the accuracy of mobilefacenet 
-in paper mobilefacenet论文(https://arxiv.org/abs/1804.07573) 中精度达到LFW 95.5% agedb 95.9% now i modifed to train。i get more higher accuray:
+in paper mobilefacenet论文(https://arxiv.org/abs/1804.07573) 中精度达到LFW 95.5% agedb 95.9% now i modifed to train。i get more higher accuray:[lfw][12000]Accuracy-Flip: 0.99617+-0.00358  [agedb_30][12000]Accuracy-Flip: 0.96017+-0.00893
 
 batch-epoch: 0.001 11999 0
 testing verification..
