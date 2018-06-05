@@ -54,7 +54,7 @@ saving 7
 INFO:root:Saved checkpoint to "../models/MF/model-y1-arcfaceredodododo-0007.params"
 [14000]Accuracy-Highest: 0.96100
 
-First step: 
+First step training (use softmax to pretrain): 
 train softmax(facenet):
 
 [lfw][62000]XNorm: 23.029881
