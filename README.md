@@ -8,7 +8,9 @@ now we get more higher accuray:
 
 
 improve the accuracy of mobilefacenet 
-in paper mobilefacenet论文(https://arxiv.org/abs/1804.07573) 中精度达到LFW 99.5% agedb 95.9% now i modifed to train。
+in paper mobilefacenet论文(https://arxiv.org/abs/1804.07573) 
+
+now i modifed to train:
 
 batch-epoch: 0.001 11999 0
 testing verification..
