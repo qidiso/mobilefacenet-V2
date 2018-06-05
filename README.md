@@ -44,3 +44,18 @@ saving 7
 INFO:root:Saved checkpoint to "../models/MF/model-y1-arcfaceredodododo-0007.params"
 [14000]Accuracy-Highest: 0.96100
 
+first step: train softmax(facenet):
+[lfw][62000]XNorm: 23.029881
+[lfw][62000]Accuracy-Flip: 0.99383+-0.00308
+testing verification..
+(14000, 512)
+infer time 20.121058
+[cfp_fp][62000]XNorm: 24.043967
+[cfp_fp][62000]Accuracy-Flip: 0.89343+-0.01705
+testing verification..
+(12000, 512)
+infer time 16.860138
+[agedb_30][62000]XNorm: 23.566453
+[agedb_30][62000]Accuracy-Flip: 0.93883+-0.01675
+saving 31
+INFO:root:Saved checkpoint to "../models/MF/model-y1-softmax12-0031.params"
