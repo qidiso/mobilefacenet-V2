@@ -75,3 +75,6 @@ INFO:root:Saved checkpoint to "../models/MF/model-y1-softmax12-0031.params"
 
 pretrained models:
 https://pan.baidu.com/s/1xBq9FoL79z7K892aFWkmFw
+
+
+Second step coming soon!
