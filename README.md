@@ -85,7 +85,7 @@ CUDA_VISIBLE_DEVICES='0,1' python -u train_softmax.py --network y1 --ckpt 2 --lo
 
 Update wd=0.00001 , --fc7-wd-mult 10 --emb-size 512
 i get new Accuracy:
-###### accuracy
+###### Accuracy
 | dbname | accuracy |
 | ----- |:-----:|
 | lfw |0.996233|
