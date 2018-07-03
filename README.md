@@ -83,3 +83,19 @@ CUDA_VISIBLE_DEVICES='0,1' python -u train_softmax.py --network y1 --ckpt 2 --lo
 Third step:
 CUDA_VISIBLE_DEVICES='0,1' python -u train_softmax.py --network y1 --ckpt 2 --loss-type 4  --lr 0.001 --lr-steps 40000,60000,70000 --wd 0.00004 --fc7-wd-mult 10 --emb-size 512 --per-batch-size 150 --margin-s 64 --data-dir ../data/faces_ms1m_112x112 --pretrained ../models/MF/model-y1-arcface,46 --prefix ../models/MF/model-y1-arcface
 
+Update wd=0.00001 , --fc7-wd-mult 10 --emb-size 512
+i get new Accuracy:
+###### accuracy
+| dbname | accuracy |
+| ----- |:-----:|
+| lfw |0.996233|
+| cfp_fp |0.94300|
+| age_db30 |0.96383|
+
+
+##########first
+#CUDA_VISIBLE_DEVICES='0' python -u train_softmax.py --network y1 --ckpt 2 --loss-type 4   --lr 0.1 --emb-size 512 --per-batch-size 240 --margin-s 64 --wd 0.00001 --fc7-wd-mult 10 --data-dir /Users/sunyimac/faces_emore --pretrained ../models/MobileFaceNet/model-y1-arcfaced,18 --prefix ../models/MobileFaceNet/model-y1-arcface
+
+#CUDA_VISIBLE_DEVICES='0' python -u train_softmax.py --network y1 --ckpt 2 --loss-type 4   --lr 0.01 --emb-size 512 --per-batch-size 240 --margin-s 64 --wd 0.00001 --fc7-wd-mult 10 --data-dir /Users/sunyimac/faces_emore --pretrained ../models/MobileFaceNet/model-y1-arcface,62 --prefix ../models/MobileFaceNet/model-y1-arcfaced
+
+CUDA_VISIBLE_DEVICES='0' python -u train_softmax.py --network y1 --ckpt 2 --loss-type 4   --lr 0.00001 --emb-size 512 --per-batch-size 240  --wd 0.00001 --fc7-wd-mult 10 --data-dir /Users/sunyimac/faces_emore --pretrained ../models/MobileFaceNet/model-y1-arcface,75 --prefix ../models/MobileFaceNet/model-y1-arcfaced
