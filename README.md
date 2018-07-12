@@ -106,6 +106,6 @@ i get new higher Accuracy:
 | dbname | accuracy |
 | ----- |:-----:|
 | lfw |0.99667|
-| cfp_fp |0.93900|
+| cfp_fp |0.941700|
 | age_db30 |0.96400|
 
