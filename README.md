@@ -3,7 +3,7 @@
 now we get more higher accuray:
 
 
-[lfw][12000]Accuracy-Flip: 0.996233+-0.00358  
+[lfw][12000]Accuracy-Flip: 0.99667+-0.00358  
 [agedb_30][12000]Accuracy-Flip: 0.96383+-0.00893 use my modified mobilenet network.
 
 
