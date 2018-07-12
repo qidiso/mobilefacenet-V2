@@ -10,50 +10,6 @@ now we get more higher accuray:
 improve the accuracy of mobilefacenet 
 in paper mobilefacenet论文(https://arxiv.org/abs/1804.07573) 
 
-now i modifed to train:
-
-batch-epoch: 0.001 11999 0
-testing verification..
-(12000, 512)
-infer time 12.695148
-[lfw][12000]XNorm: 22.189873
-[lfw][12000]Accuracy-Flip: 0.99617+-0.00358
-testing verification..
-(14000, 512)
-infer time 14.926009
-[cfp_fp][12000]XNorm: 18.588222
-[cfp_fp][12000]Accuracy-Flip: 0.88857+-0.01704
-testing verification..
-(12000, 512)
-infer time 12.718514
-[agedb_30][12000]XNorm: 22.106283
-[agedb_30][12000]Accuracy-Flip: 0.96017+-0.00893
-saving 6
-INFO:root:Saved checkpoint to "../models/MF/model-y1-arcfaceredodododo-0006.params"
-[12000]Accuracy-Highest: 0.96033
-
-or
-
-lr-batch-epoch: 0.001 1317 1
-testing verification..
-(12000, 512)
-infer time 12.44981
-[lfw][14000]XNorm: 22.190438
-[lfw][14000]Accuracy-Flip: 0.99600+-0.00359
-testing verification..
-(14000, 512)
-infer time 14.993647
-[cfp_fp][14000]XNorm: 18.583859
-[cfp_fp][14000]Accuracy-Flip: 0.88814+-0.01752
-testing verification..
-(12000, 512)
-infer time 12.716178
-[agedb_30][14000]XNorm: 22.115754
-[agedb_30][14000]Accuracy-Flip: 0.96100+-0.00790
-saving 7
-INFO:root:Saved checkpoint to "../models/MF/model-y1-arcfaceredodododo-0007.params"
-[14000]Accuracy-Highest: 0.96100
-
 First step training (use softmax to pretrain): 
 train softmax(facenet):
 
@@ -100,7 +56,7 @@ i get new Accuracy:
 
 CUDA_VISIBLE_DEVICES='0' python -u train_softmax.py --network y1 --ckpt 2 --loss-type 4   --lr 0.00001 --emb-size 512 --per-batch-size 240  --wd 0.00001 --fc7-wd-mult 10 --data-dir /Users/sunyimac/faces_emore --pretrained ../models/MobileFaceNet/model-y1-arcface,75 --prefix ../models/MobileFaceNet/model-y1-arcfaced
 
-trainning is not end. now is the new Accuracy:
+Update wd=0.000001 trainning is not end. now is the new Accuracy:
 i get new higher Accuracy:
 ###### Accuracy
 | dbname | accuracy |
