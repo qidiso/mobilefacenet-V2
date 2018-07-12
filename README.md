@@ -99,3 +99,13 @@ i get new Accuracy:
 #CUDA_VISIBLE_DEVICES='0' python -u train_softmax.py --network y1 --ckpt 2 --loss-type 4   --lr 0.01 --emb-size 512 --per-batch-size 240 --margin-s 64 --wd 0.00001 --fc7-wd-mult 10 --data-dir /Users/sunyimac/faces_emore --pretrained ../models/MobileFaceNet/model-y1-arcface,62 --prefix ../models/MobileFaceNet/model-y1-arcfaced
 
 CUDA_VISIBLE_DEVICES='0' python -u train_softmax.py --network y1 --ckpt 2 --loss-type 4   --lr 0.00001 --emb-size 512 --per-batch-size 240  --wd 0.00001 --fc7-wd-mult 10 --data-dir /Users/sunyimac/faces_emore --pretrained ../models/MobileFaceNet/model-y1-arcface,75 --prefix ../models/MobileFaceNet/model-y1-arcfaced
+
+trainning is not end. now is the new Accuracy:
+i get new higher Accuracy:
+###### Accuracy
+| dbname | accuracy |
+| ----- |:-----:|
+| lfw |0.99667|
+| cfp_fp |0.93900|
+| age_db30 |0.96400|
+
