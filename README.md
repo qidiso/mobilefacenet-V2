@@ -4,27 +4,15 @@ now we get more higher accuray:
 
 
 [lfw][12000]Accuracy-Flip: 0.99667+-0.00358  
-[agedb_30][12000]Accuracy-Flip: 0.96383+-0.00893 use my modified mobilenet network.
+[agedb_30][12000]Accuracy-Flip: 0.96667+-0.00167 use my modified mobilenet network.
 
 lr-batch-epoch: 0.01 11738 1
 testing verification..
 (12000, 512)
 infer time 39.129495
 [lfw][36000]XNorm: 22.729305
-[lfw][36000]Accuracy-Flip: 0.99667+-0.00325
-testing verification..
-(14000, 512)
-infer time 41.08812
-[cfp_fp][36000]XNorm: 19.069040
-[cfp_fp][36000]Accuracy-Flip: 0.94057+-0.01163
-testing verification..
-(12000, 512)
-infer time 37.759563
-[agedb_30][36000]XNorm: 22.273430
-[agedb_30][36000]Accuracy-Flip: 0.96067+-0.00831
-saving 18
-INFO:root:Saved checkpoint to "../models/MobileFaceNet/model-y1-arcface-0018.params"
-[36000]Accuracy-Highest: 0.96217
+[lfw][36000]Accuracy-Flip: 0.99667+-0.00358
+
 
 
 improve the accuracy of mobilefacenet 
