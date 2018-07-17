@@ -71,5 +71,5 @@ i get new higher Accuracy:
 | ----- |:-----:|
 | lfw |0.99667|
 | cfp_fp |0.941700|
-| age_db30 |0.96400|
+| age_db30 |0.966700|
 
