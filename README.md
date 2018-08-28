@@ -73,3 +73,11 @@ i get new higher Accuracy:
 | cfp_fp |0.94300|
 | age_db30 |0.96700|
 
+Update wd=0.0000001 trainning is not end. now is the new Accuracy:
+i get new higher Accuracy:
+###### Accuracy
+| dbname | accuracy |
+| ----- |:-----:|
+| lfw |0.99687|
+| cfp_fp |0.94500|
+| age_db30 |0.96717|
