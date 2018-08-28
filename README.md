@@ -78,6 +78,6 @@ i get new higher Accuracy:
 ###### Accuracy
 | dbname | accuracy |
 | ----- |:-----:|
-| lfw |0.99687|
+| lfw |0.99683|
 | cfp_fp |0.94500|
 | age_db30 |0.96717|
