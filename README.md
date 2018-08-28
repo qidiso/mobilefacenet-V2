@@ -79,6 +79,7 @@ i get new higher Accuracy:
 | dbname | accuracy |
 | ----- |:-----:|
 | lfw |0.99683|
+| cfp_ff |0.99733|
 | cfp_fp |0.94500|
 | age_db30 |0.96717|
 you can visit my log file:
