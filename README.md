@@ -81,3 +81,5 @@ i get new higher Accuracy:
 | lfw |0.99683|
 | cfp_fp |0.94500|
 | age_db30 |0.96717|
+you can visit my log file:
+https://github.com/qidiso/mobilefacenet-V2/blob/master/retrain0.001.log
