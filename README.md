@@ -75,7 +75,7 @@ i get new higher Accuracy:
 
 Update wd=0.0000001 trainning is not end. now is the new Accuracy:
 i get new higher Accuracy:
-###### Accuracy
+###### Accuracy🔥
 | dbname | accuracy |
 | ----- |:-----:|
 | lfw |0.99683|
