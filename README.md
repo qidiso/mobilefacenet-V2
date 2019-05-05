@@ -84,3 +84,6 @@ i get new higher Accuracy:
 | age_db30 |0.96717|
 you can visit my log file:
 https://github.com/qidiso/mobilefacenet-V2/blob/master/retrain0.001.log
+
+# Now Release the models:
+[models:]https://github.com/aidlearning/AidLearning-FrameWork/tree/master/examples/facencnn
