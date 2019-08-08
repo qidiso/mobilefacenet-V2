@@ -86,5 +86,5 @@ you can visit my log file:
 https://github.com/qidiso/mobilefacenet-V2/blob/master/retrain0.001.log
 
 # Now Release the models:
-[models:]https://github.com/aidlearning/AidLearning-FrameWork/tree/master/examples/facencnn
+[models:]https://github.com/aidlearning/AidLearning-FrameWork/tree/master/src/facencnn/models
 (reached 99.733 in the cfp-ff、 the 99.68+ in lfw,96.71+ in agedb30)
